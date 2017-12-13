@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2C4D6A6B1FE0DF3D00E32A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6A6A1FE0DF3D00E32A81 /* AppDelegate.swift */; };
-		2C4D6A6D1FE0DF3D00E32A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6A6C1FE0DF3D00E32A81 /* ViewController.swift */; };
+		2C4D6A6D1FE0DF3D00E32A81 /* GallaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6A6C1FE0DF3D00E32A81 /* GallaryViewController.swift */; };
 		2C4D6A701FE0DF3D00E32A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D6A6E1FE0DF3D00E32A81 /* Main.storyboard */; };
 		2C4D6A721FE0DF3D00E32A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D6A711FE0DF3D00E32A81 /* Assets.xcassets */; };
 		2C4D6A751FE0DF3D00E32A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D6A731FE0DF3D00E32A81 /* LaunchScreen.storyboard */; };
 		2C4D6A801FE0DF3D00E32A81 /* CollectionViewTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6A7F1FE0DF3D00E32A81 /* CollectionViewTutorialTests.swift */; };
 		2C4D6A8B1FE0DF3D00E32A81 /* CollectionViewTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6A8A1FE0DF3D00E32A81 /* CollectionViewTutorialUITests.swift */; };
+		2C4D6A9C1FE0DFCC00E32A81 /* CVDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6A9B1FE0DFCC00E32A81 /* CVDataManager.swift */; };
+		2C4D6A9E1FE0DFDA00E32A81 /* CVPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6A9D1FE0DFDA00E32A81 /* CVPhoto.swift */; };
+		2C4D6AA11FE0E8F500E32A81 /* GallaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6AA01FE0E8F500E32A81 /* GallaryCollectionViewCell.swift */; };
+		2C4D6AA31FE0F21B00E32A81 /* GallaryCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D6AA21FE0F21B00E32A81 /* GallaryCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		2C4D6A671FE0DF3D00E32A81 /* CollectionViewTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4D6A6A1FE0DF3D00E32A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C4D6A6C1FE0DF3D00E32A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C4D6A6C1FE0DF3D00E32A81 /* GallaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryViewController.swift; sourceTree = "<group>"; };
 		2C4D6A6F1FE0DF3D00E32A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C4D6A711FE0DF3D00E32A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C4D6A741FE0DF3D00E32A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		2C4D6A861FE0DF3D00E32A81 /* CollectionViewTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4D6A8A1FE0DF3D00E32A81 /* CollectionViewTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTutorialUITests.swift; sourceTree = "<group>"; };
 		2C4D6A8C1FE0DF3D00E32A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4D6A9B1FE0DFCC00E32A81 /* CVDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDataManager.swift; sourceTree = "<group>"; };
+		2C4D6A9D1FE0DFDA00E32A81 /* CVPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPhoto.swift; sourceTree = "<group>"; };
+		2C4D6AA01FE0E8F500E32A81 /* GallaryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C4D6AA21FE0F21B00E32A81 /* GallaryCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,10 @@
 		2C4D6A691FE0DF3D00E32A81 /* CollectionViewTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				2C4D6A9F1FE0E8E000E32A81 /* Views */,
+				2C4D6A981FE0DF7F00E32A81 /* Model */,
 				2C4D6A6A1FE0DF3D00E32A81 /* AppDelegate.swift */,
-				2C4D6A6C1FE0DF3D00E32A81 /* ViewController.swift */,
+				2C4D6A6C1FE0DF3D00E32A81 /* GallaryViewController.swift */,
 				2C4D6A6E1FE0DF3D00E32A81 /* Main.storyboard */,
 				2C4D6A711FE0DF3D00E32A81 /* Assets.xcassets */,
 				2C4D6A731FE0DF3D00E32A81 /* LaunchScreen.storyboard */,
@@ -123,6 +133,40 @@
 				2C4D6A8C1FE0DF3D00E32A81 /* Info.plist */,
 			);
 			path = CollectionViewTutorialUITests;
+			sourceTree = "<group>";
+		};
+		2C4D6A981FE0DF7F00E32A81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D6A9A1FE0DFAD00E32A81 /* Entity */,
+				2C4D6A991FE0DF9A00E32A81 /* Manager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C4D6A991FE0DF9A00E32A81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D6A9B1FE0DFCC00E32A81 /* CVDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2C4D6A9A1FE0DFAD00E32A81 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D6A9D1FE0DFDA00E32A81 /* CVPhoto.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2C4D6A9F1FE0E8E000E32A81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C4D6AA01FE0E8F500E32A81 /* GallaryCollectionViewCell.swift */,
+				2C4D6AA21FE0F21B00E32A81 /* GallaryCollectionViewLayout.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4D6A6D1FE0DF3D00E32A81 /* ViewController.swift in Sources */,
+				2C4D6A9C1FE0DFCC00E32A81 /* CVDataManager.swift in Sources */,
+				2C4D6AA11FE0E8F500E32A81 /* GallaryCollectionViewCell.swift in Sources */,
+				2C4D6A6D1FE0DF3D00E32A81 /* GallaryViewController.swift in Sources */,
+				2C4D6AA31FE0F21B00E32A81 /* GallaryCollectionViewLayout.swift in Sources */,
 				2C4D6A6B1FE0DF3D00E32A81 /* AppDelegate.swift in Sources */,
+				2C4D6A9E1FE0DFDA00E32A81 /* CVPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
